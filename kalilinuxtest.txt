@@ -104,8 +104,8 @@ function set_strings() {
 
 
     CHROOT=kali-nethunter-rootfs-full-${SYS_ARCH}
-    IMAGE_NAME=kali-nethunter-rootfs-full${SYS_ARCH}-${wimg}.tar.xz
-    SHA_NAME=kali-nethunter-rootfs-full${SYS_ARCH}-${wimg}.sha512sum
+    IMAGE_NAME=kali-nethunter-rootfs-full-${SYS_ARCH}-${wimg}.tar.xz
+    SHA_NAME=kali-nethunter-rootfs-full-${SYS_ARCH}-${wimg}.sha512sum
 }    
 
 function prepare_fs() {
